@@ -2,9 +2,10 @@
 
 .table {
   width: 100%;
+  table-layout: fixed;
 }
 
-.table td, th {
+.table td,table th {
   border: 1px solid #dee2e6;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -13,18 +14,18 @@
   line-height: 26px;
 }
 
-tr:nth-child(1), th {
+.table th {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 22px;
 }
 
-tr:nth-child(3), tr:nth-child(5) {
+tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-tr:nth-child(6) {
+tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 
