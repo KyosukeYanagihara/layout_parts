@@ -16,6 +16,8 @@
 tr:nth-child(1), tr td:nth-of-type(1) {
   background-color: #2244aa;
   color: #fff;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 tr:nth-child(3), tr:nth-child(5) {
