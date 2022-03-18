@@ -21,11 +21,11 @@
   line-height: 22px;
 }
 
-tr:nth-child(odd) {
+.table tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child {
+.table tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 
